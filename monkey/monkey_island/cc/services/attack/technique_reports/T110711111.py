@@ -2,6 +2,7 @@ from monkey_island.cc.database import mongo
 from monkey_island.cc.services.attack.technique_reports import AttackTechnique
 
 
+
 class T1107(AttackTechnique):
     tech_id = "T1107"
     relevant_systems = ["Linux", "Windows"]
