@@ -3,6 +3,9 @@ from monkey_island.cc.models import Monkey
 from monkey_island.cc.services.attack.technique_reports import AttackTechnique
 
 
+
+
+
 class T1090(AttackTechnique):
     tech_id = "T1090"
     relevant_systems = ["Linux", "Windows"]
