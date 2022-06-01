@@ -7,6 +7,8 @@ from monkey_island.cc.services.attack.technique_reports import AttackTechnique
 logger = logging.getLogger(__name__)
 
 
+
+
 class T1145(AttackTechnique):
     tech_id = "T1145"
     relevant_systems = ["Linux", "Windows"]
