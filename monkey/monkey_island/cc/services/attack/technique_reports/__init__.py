@@ -15,6 +15,8 @@ from monkey_island.cc.services.config_schema.config_schema_per_attack_technique 
 logger = logging.getLogger(__name__)
 
 
+
+
 class AttackTechnique(object, metaclass=abc.ABCMeta):
     """Abstract class for ATT&CK report components"""
 
